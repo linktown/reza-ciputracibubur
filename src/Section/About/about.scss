@@ -1,0 +1,106 @@
+.about-sumban {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  @media (max-width: 768px) {
+    width: 100%;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+  .containerlogo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+    .logosumban {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      @media (max-width: 768px) {
+        width: 100%;
+      }
+      .gambarsumban {
+        width: 25%;
+
+        @media (max-width: 768px) {
+          width: 25%;
+          margin-bottom: -20px;
+        }
+      }
+    }
+  }
+  .containerdesk {
+    width: 100%;
+    @media (max-width: 768px) {
+      width: 95%;
+      padding: 20px 0px 0px 10px;
+      margin-left: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .judul1 {
+      width: 100%;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      @media (max-width: 768px) {
+        width: 100%;
+        padding: 10px 50px;
+        display: flex;
+      flex-direction: column;
+      justify-content: center;
+      }
+
+      h1 {
+        width: 100%;
+      display: flex;
+      justify-content: center;
+      justify-items: center;
+      align-items: center;
+      text-align: center;
+      margin-left: -22%;
+      font-family: "poppins" sans-serif;
+      font-size: 35px;
+      font-weight: 600;
+      color: #1c3a6b;
+      @media (max-width: 768px) {
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        font-size: 16px;
+      flex-direction: column;
+      justify-content: center;
+      }
+      }
+      
+    }
+    .desk {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      justify-items: center;
+      align-items: center;
+      text-align: center;
+      margin-left: -10%;
+      color: rgb(85, 85, 85);
+      font-family: "poppins" sans-serif;
+      font-size: 15px;
+      @media (max-width: 768px) {
+        width: 100%;
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+      }
+    }
+  }
+}

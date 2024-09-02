@@ -1,0 +1,17 @@
+.background-container {
+    background-image: url("../../../src//Media/Ciputra_Desktop.webp"); /* Replace with your desktop image URL */
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    @media (max-width: 768px) {
+      background-image: url("../../../src//Media/Ciputra_Mobile.png");
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      align-items: center; 
+    
+    }
+  }

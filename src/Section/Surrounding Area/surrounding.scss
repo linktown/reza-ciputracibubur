@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.surroundingarea {
+    background-color: #1c3a6b;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    @media (max-width: 768px) {
+        
+      }
+      
+    .container-surrounding {
+        width: 100%;
+        background-color: #1c3a6b;
+        .judul-surrounding {
+            width: 100%;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            background-color: #1c3a6b;
+            @media (max-width: 768px) {
+                background-color: #1c3a6b;
+              }
+
+            //margin-bottom: 2%;
+            h1 {
+                font-family: 'poppins' sans-serif;
+                font-size: 50px;
+                font-weight: 400;
+                color: #e1c06c;
+                @media (max-width: 768px) {
+                    text-align: center;
+                    font-size: 32px;
+                }
+            }
+        }
+
+        .container-card {
+            .kartu {
+                .kartugambar1 {
+                    width: 100%;
+                    margin: auto;
+                    border-radius: 5px;
+
+                    @media (max-width: 768px) {
+                        width: 95%;
+                        height: 75%;
+                    }
+
+
+                }
+
+                .slick-next::before,
+                .slick-prev::before {
+                    font-family: "slick";
+                    font-size: 30px;
+                }
+
+                .slick-next {
+                    right: 100px;
+
+                    @media (max-width: 768px) {
+                        right: 50px;
+                    }
+                }
+
+                .slick-prev {
+                    z-index: 1;
+                    left: 100px;
+
+                    @media (max-width: 768px) {
+                        left: 50px;
+                    }
+                }
+
+                .slick-dots {
+                    position: absolute;
+                    /* Make dots absolute for positioning within slides */
+                    bottom: 10px;
+                    /* Adjust vertical positioning */
+                    left: 50%;
+                    /* Center dots horizontally */
+                    transform: translateX(-50%);
+                    /* Center dots precisely */
+                    z-index: 1;
+
+                    /* Ensure dots are above image content */
+                    li {
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+    .benefit-container {
+        display: flex;
+        flex-direction: row;
+        margin-top: 25px;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        @media (max-width: 768px) {
+          flex-direction: column;
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        .benefit-point {
+          color: #ffffff;
+          padding-right: 45px;
+          @media (max-width: 768px) {
+            flex-direction: column;
+            padding-right: 0;
+            padding-left: 25px;
+            width: 80%;
+            
+          }
+          .benefit-title {
+            font-family: "Robbotto", Sans-serif;
+            font-size: 40px;
+            font-weight: 600;
+            font-size: 30px;
+            padding: 10px 25px 25px 0;
+          }
+          .benefit {
+            font-size: 18px;
+          }
+        }
+      }
+}

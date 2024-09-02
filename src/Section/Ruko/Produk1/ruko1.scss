@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.containercard2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    @media (max-width: 768px) {
+      flex-direction: column;
+      overflow: hidden;
+      margin-bottom: -20px;
+      margin-top: -5%;
+    }
+    .card {
+      width: 30%;
+      margin-left: 15px;
+      margin-top: 10px;
+      background-color: #fff;
+      border-radius: 15px;
+      box-shadow: 0 0 10px 0;
+      padding-bottom: 10px;
+      @media (max-width: 768px) {
+        width: 90%;
+        margin-bottom: 20px;
+        margin-left: 0px;
+        height: auto;
+      }
+      .imagecard {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+      }
+      .imagecard1 {
+        width: 100%;
+      }
+      .slick-next::before,
+      .slick-prev::before {
+        font-family: "slick";
+        font-size: 30px;
+      }
+      .slick-list {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+      }
+
+      .slick-dots {
+        position: absolute; /* Make dots absolute for positioning within slides */
+        bottom: 10px; /* Adjust vertical positioning */
+        left: 50%; /* Center dots horizontally */
+        transform: translateX(-50%); /* Center dots precisely */
+        z-index: 1; /* Ensure dots are above image content */
+      }
+      .slick-next {
+        right: 25px;
+      }
+      .slick-prev {
+        z-index: 1;
+        left: 25px;
+      }
+      .slick-dots {
+        li {
+          margin: 0;
+        }
+      }
+
+      .container-rumah {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        padding: 10px;
+        .nama-rumah {
+          width: 100%;
+          font-family: "poppins" sans-serif;
+          font-size: 30px;
+          font-weight: 500;
+          color: #1c3a6b;
+        }
+      }
+      .gridmap {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        .icon {
+          margin-top: 5px;
+          margin-right: 10px;
+        }
+        .namalokasi{
+        width: 100%;
+        font-size: 18px;
+        color: #565656;
+        }
+      }
+
+      .containercicilan {
+        width: 100%;
+        margin-top: 10px;
+        display: flex;
+        background-color: #1c3a6b;
+
+        .judulkartu {
+          width: 50%;
+          padding: 10px;
+          margin: 10px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          .startfrom {
+            color: #ffffff;
+            font-family: "Poppins" sans-serif;
+            font-size: 25px;
+            font-weight: 400;
+          }
+        }
+        .cicilansumban {
+          width: 50%;
+          padding: 10px;
+          border-radius: 10px 0px 0 10px;
+          color: rgb(255, 255, 255);
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          background-color: #1c3a6b;
+          .angka {
+            font-family: "Poppins";
+            font-size: 48px;
+          }
+          .ket {
+            font-family: "Poppins";
+            font-size: 17px;
+          }
+        }
+      }
+      .gridspek {
+        padding-left: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        span {
+          color: #2b2b2b;
+            display: flex;
+          justify-content: center;
+          align-items: center;
+          padding-left: 5px;
+          padding-right: 10px;
+          @media (max-width: 768px) {
+            padding-right: 20px;
+            font-size: 12px;
+          }
+        }
+      }
+      .containerwhatsapp {
+        display: flex;
+        justify-content: center;
+        padding-top: 25px;
+        
+        .whatsappsumban {
+          display: inline-block;
+          padding: 10px 100px;
+          cursor: pointer;
+          border: solid 1px;
+          border-radius: 20px;
+          background-color: #1c3a6b; 
+          color: white;
+          font-size: 16px;
+          &:hover {
+            background-color: transparent;
+            color: #1c3a6b;
+            border-color: #1c3a6b;
+        }
+        }
+
+      }
+    }
+  }
